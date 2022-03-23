@@ -18,19 +18,30 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+         HOME
         </a>
       </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
             <a data-testid="about" href="#about">
-              About me
+              GET TO KNOW ME
+            </a>
+          </li>
+          <li className="mx-2">
+            <a data-testid="resume" href="#resume">
+              RESUME
+            </a>
+          </li>
+          <li className="mx-2">
+            <a data-testid="projects" href="#projects">
+              PROJECTS
             </a>
           </li>
           <li className={"mx-2"}>
             <span onClick={() => handleClick('Contact')}>
-              Contact
+              CONTACT 
+              
             </span>
           </li>
           {categories.map((category) => (
