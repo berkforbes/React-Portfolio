@@ -12,36 +12,7 @@ import personalData from './PersonalData'
 
 class App extends Component {
 
-  constructor(props){
-    super(props);
-    this.state = {
-      foo: 'bar',
-      personalData: {}
-    };
-
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
-
-  }
-
-  getPersonalData(){
-    $.ajax({
-      url:'./personalData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({personalData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
-  componentDidMount(){
-    this.getPersonalData();
-  }
+  
 
   render() {
     return (
