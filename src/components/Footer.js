@@ -3,7 +3,9 @@ import React from 'react'
 function Footer() {
 
     return (
-        <div></div>
+      <section className="my-5" >
+  
+      </section>
     )
   }
   
