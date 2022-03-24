@@ -8,6 +8,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import personalData from './PersonalData'
 
 class App extends Component {
 
@@ -45,12 +46,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav data={this.state.personalData.main}/>
-        <About data={this.state.personalData.main}/>
-        <Resume data={this.state.personalData.resume}/>
-        <Portfolio data={this.state.personalData.portfolio}/>
-        <Contact data={this.state.personalData.main} repos={this.state.personalData.portfolio}/>
-        <Footer data={this.state.personalData.main}/>
+        <Nav personalData={personalData}/>
+        <About personalData={personalData}/>
+        <Resume personalData={personalData}/>
+        <Portfolio personalData={personalData}/>
+        <Contact personalData={personalData}/>
+        <Footer personalData={personalData}/>
       </div>
     );
   }

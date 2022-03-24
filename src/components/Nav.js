@@ -1,22 +1,13 @@
 import React, { Component } from 'react';
 
 
-class Header extends Component {
+export default class Nav extends Component {
   render() {
 
-    if(this.props.data){
-       var project = this.props.data.project;
-       var instagram = this.props.data.instagram;
-       var github = this.props.data.github;
-      var name = this.props.data.name;
-      var description= this.props.data.description;
-      var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
-    }
+    let personalData = this.props.personalData;
 
     return (
+       <React.Fragment>
       <header id="home">
       <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -34,13 +25,13 @@ class Header extends Component {
       <div className="row banner">
       
          <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
-            <h3>{description}.</h3>
+            <h1 className="responsive-headline">{personalData.name}</h1>
+            <h3>{personalData.description}.</h3>
             <hr />
             <ul className="social">
-               <a href={project} target="_blank" className="button btn github-btn"><i className="fa fa-linkedin"></i>LinkedIn</a>
-               <a href={github} target="_blank" className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
-               <a href={instagram} target="_blank" className="button btn github-btn"><i className="fa fa-instagram"></i>Instagram</a>
+               <a href={personalData.project} target="_blank" className="button btn github-btn"><i className="fa fa-linkedin"></i>LinkedIn</a>
+               <a href={personalData.github} target="_blank" className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+               <a href={personalData.instagram} target="_blank" className="button btn github-btn"><i className="fa fa-instagram"></i>Instagram</a>
             </ul>
          </div>
       </div>
@@ -50,8 +41,7 @@ class Header extends Component {
       </p>
 
    </header>
+   </React.Fragment>
     );
   }
 }
-
-export default Header;
