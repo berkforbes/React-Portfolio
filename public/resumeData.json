@@ -97,23 +97,23 @@
     "portfolio":{
       "projects": [
         {
-          "title":"",
-          "shorttitle": "",
-          "category":"",
-          "image":"",
-          "info":"",
-          "url":"",
-          "repo":""
+          "title":"Ring Creator",
+          "shorttitle": "Ring Builder",
+          "category":"Group Project",
+          "image":"Ring-Creator 2022-03-24.png",
+          "info":"Ring Creator lets users build cutsom ring designs.",
+          "url":"https://ring-builder-app.herokuapp.com/",
+          "repo":"https://github.com/tutchings/disneyPlatformer"
         },
         {
-            "title":"",
-            "shorttitle": "",
-            "category":"",
-            "image":"",
-            "info":"",
-            "url":"",
-            "repo":""
-          },
+          "title":"Stay-At-Home-Mom Calendar",
+          "shorttitle": "SAHM Calendar",
+          "category":"Group Project",
+          "image":"Stay at home scheduler 2022-03-24 .png",
+          "info":"An app that helps stay at home parents manage their schedules.",
+          "url":"https://sessions21.github.io/Project1-SAHM-Calendar/",
+          "repo":"https://github.com/Sessions21/Project1-SAHM-Calendar.git"
+        },
         {
           "title":"",
           "shorttitle": "",
