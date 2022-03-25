@@ -1,4 +1,4 @@
-let personalData = {
+{
     "main": {
       "name":"Berk Forbes",
       "description":"Geologist / Full Stack Web Developer",
