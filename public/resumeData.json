@@ -113,43 +113,7 @@
           "info":"An app that helps stay at home parents manage their schedules.",
           "url":"https://sessions21.github.io/Project1-SAHM-Calendar/",
           "repo":"https://github.com/Sessions21/Project1-SAHM-Calendar.git"
-        },
-        {
-          "title":"",
-          "shorttitle": "",
-          "category":"",
-          "image":"",
-          "info":"",
-          "url":"",
-          "repo":""
-        },
-        {
-          "title":"",
-          "shorttitle": "",
-          "category":"",
-          "image":"",
-          "info":"",
-          "url":"",
-          "repo":""
-        },
-        {
-          "title":"",
-          "shorttitle": "",
-          "category":"",
-          "image":"",
-          "info":"",
-          "url":"",
-          "repo":""
-        },
-        {
-            "title":"",
-            "shorttitle": "",
-            "category":"",
-            "image":"",
-            "info":"",
-            "url":"",
-            "repo":""
-          }
+        }
       ]
     }
   }
