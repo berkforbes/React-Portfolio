@@ -17,7 +17,7 @@
         "zip": "84103"
       },
       "website": "https://github.com/berkforbes",
-      "resumedownload":"ADD Google doc Resume",
+      "resumedownload":"https://docs.google.com/document/d/1txxv22UFIB1QvnmgIsmgFFaxiQSYbwAsxcRV1doCS6M/edit",
       "social":[
         {
           "name":"github",
@@ -113,6 +113,24 @@
           "info":"An app that helps stay at home parents manage their schedules.",
           "url":"https://sessions21.github.io/Project1-SAHM-Calendar/",
           "repo":"https://github.com/Sessions21/Project1-SAHM-Calendar.git"
+        },
+        {
+          "title":"T-Shirt Paradise",
+          "shorttitle": "T-Shirt Paradise",
+          "category":"Group Project",
+          "image":"tshirtparadise.png",
+          "info":"An app to upload, edit, and create tshirt designs which you can comment and vote on",
+          "url":"https://t-shirt-paradise.herokuapp.com/",
+          "repo":"https://github.com/Sessions21/t-shirt-paradise"
+        },
+        {
+          "title":"Budget Tracker",
+          "shorttitle": "Budget Tracker",
+          "category":"Module Work",
+          "image":"budgettracker.png",
+          "info":"A budget tracker app that tracks cash-flow to give you up to tracking on your spending and budget",
+          "url":"https://radiant-waters-19542.herokuapp.com/",
+          "repo":"https://github.com/berkforbes/Budget-Tracker-PWA"
         }
       ]
     }
