@@ -52,7 +52,7 @@ class Nav extends Component {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
-            <h3>{description}.</h3>
+            <h3>{description}</h3>
             <hr />
             <ul className="social">
               <a
@@ -60,21 +60,21 @@ class Nav extends Component {
                 target="_blank"
                 className="button btn github-btn"
               >
-                <i className="fa fa-linkedin"></i>LinkedIn
+                <i className="fa fa-linkedin"></i>
               </a>
               <a
                 href={github}
                 target="_blank"
                 className="button btn github-btn"
               >
-                <i className="fa fa-github"></i>Github
+                <i className="fa fa-github"></i>
               </a>
               <a
                 href={instagram}
                 target="_blank"
                 className="button btn github-btn"
               >
-                <i className="fa fa-instagram"></i>Instagram
+                <i className="fa fa-instagram"></i>
               </a>
             </ul>
           </div>
