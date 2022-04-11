@@ -2,9 +2,9 @@
     "main": {
       "name":"Berk Forbes",
       "description":"Geologist // Full Stack Web Developer",
-      "image":"",
+      "image":"profilepicwithboomer.jpeg",
       "bio":"I'm Berk, a geologist turned full-stack developer. I'm naturally curious and interested in new and challenging experiences. As a geologist I mapped geologic hazards around Utah and performed subsurface investigations for geotechnical purposes. Before that, and without any prior experience, I built a one of a kind tiny house by hand. Currently I work with a good friend of mine doing custom home renovations and builds. I've always liked solving problems and writing code has opened up a whole new world of problem solving for me.",
-      "contactmessage":"Feel free to reach out via any of the below methods!",
+      "contactmessage":"Feel free to reach out via this form or by email below",
       "email": "forbes.berk1@gmail.com",
       "phone": "623-628-1977",
       "github":"https://github.com/berkforbes",
@@ -26,7 +26,7 @@
         },
         {
           "name":"linkedin",
-          "url":"ADD LINKEDIN",
+          "url":"https://www.linkedin.com/berkforbes",
           "className":"fa fa-linkedin"
         },
         {
@@ -100,7 +100,7 @@
           "title":"Ring Creator",
           "shorttitle": "Ring Builder",
           "category":"Group Project",
-          "image":"Ring-Creator 2022-03-24.png",
+          "image":"ring-creator2022-03-2.png",
           "info":"Ring Creator lets users build cutsom ring designs.",
           "url":"https://ring-builder-app.herokuapp.com/",
           "repo":"https://github.com/tutchings/disneyPlatformer"
@@ -109,47 +109,11 @@
           "title":"Stay-At-Home-Mom Calendar",
           "shorttitle": "SAHM Calendar",
           "category":"Group Project",
-          "image":"Stay at home scheduler 2022-03-24 .png",
+          "image":"stahs2022-03-24.png",
           "info":"An app that helps stay at home parents manage their schedules.",
           "url":"https://sessions21.github.io/Project1-SAHM-Calendar/",
           "repo":"https://github.com/Sessions21/Project1-SAHM-Calendar.git"
-        },
-        {
-          "title":"",
-          "shorttitle": "",
-          "category":"",
-          "image":"",
-          "info":"",
-          "url":"",
-          "repo":""
-        },
-        {
-          "title":"",
-          "shorttitle": "",
-          "category":"",
-          "image":"",
-          "info":"",
-          "url":"",
-          "repo":""
-        },
-        {
-          "title":"",
-          "shorttitle": "",
-          "category":"",
-          "image":"",
-          "info":"",
-          "url":"",
-          "repo":""
-        },
-        {
-            "title":"",
-            "shorttitle": "",
-            "category":"",
-            "image":"",
-            "info":"",
-            "url":"",
-            "repo":""
-          }
+        }
       ]
     }
   }
